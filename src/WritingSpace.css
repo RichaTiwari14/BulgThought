@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.writing {
+  width: 100%;
+  height: 800px;
+  background: white;
+  color: rgb(53, 53, 53);
+  text-align: center;
+  font-family: 'Arial, sans-serif';
+  position: relative;
+  border-top: 1px solid rgba(94, 13, 13, 0.2);
+}
+
+.image {
+  width: 35%;
+  opacity: 0.6;
+  height: 500px;
+  outline: none;
+}
+
+.writing h2 {
+  text-align: right;
+  width: 90%;
+  font-size: 3em;
+  font-style: bold;
+}
+textarea{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.writesomething {
+  width: 50%;
+  height: 200px;
+  padding: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: auto;
+  border: none;
+}
+.writesomething h3{
+  font-size: 2rem;
+  color: #636363;
+}
+.writesomething span{
+  color: rgb(248, 190, 106);
+}
+button {
+  width: 14%;
+  height: 60px;
+  background: rgb(83, 82, 82);
+  color: white;
+  font-size: 1em;
+  margin-top: 20px;
+  cursor: pointer;
+  border: none;
+  transition: background 0.4s, transform 0.4s;
+}
+
+button:hover {
+  background: rgb(94, 93, 93);
+  transform: scale(1.1);
+}

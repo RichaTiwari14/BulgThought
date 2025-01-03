@@ -1,0 +1,20 @@
+.host-section {
+    text-align: center;
+    color: white;
+    position: absolute;
+  }
+  
+  .host-section h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .host-section p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .host-details {
+    text-align: center;
+  }
+  

@@ -1,0 +1,104 @@
+.header {
+    width: 100%;
+  }
+  .heading{
+    font-size: 2rem;
+    color: #444444;
+    padding: 20px;
+  }
+  .navbar {
+    background-color: lightcoral;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 80px;
+  }
+  .element{
+    height: 500px;
+    width: 100%;
+    overflow: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.element div{
+    width: 18%;
+    height: 350px;
+    text-align: center;
+   
+}
+
+.element img{
+    align-items: center;
+    opacity: 70%;
+    width: 100%;
+    height: 220px;
+    border-radius: 50%;
+    border-top-left-radius: 1px;
+    border-top-right-radius: 1px;
+}
+.element img:hover{
+ 
+    height: 250px;
+    opacity: 100%;
+}
+.element span{
+    font-style: italic;
+    font-family: cursive;
+    color: #444444;
+    opacity: 0.7;
+}
+.slide-slide{
+position: relative;
+width: 100%;}
+
+.slider-image{
+  width: 40%;
+}
+.slider-image p{
+  color: #444444;
+  font-style: italic;
+  font-size: 1.5rem ;
+}
+.slider-image img{
+  width: 40%;
+  height: 500px;
+}
+  .menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .menu a {
+    padding: 10px 20px;
+    color: black;
+    text-decoration: none;
+    position: relative;
+    transition: color 0.4s;
+  }
+  
+  .menu a:hover {
+    color: darksalmon;
+  }
+  
+  .menu a:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    border-bottom: 2px solid wheat;
+    transition: width 0.4s linear;
+  }
+  
+  .menu a:hover:before {
+    width: 100%;
+  }
+  

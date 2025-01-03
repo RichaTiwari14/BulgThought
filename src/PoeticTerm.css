@@ -1,0 +1,16 @@
+.poetic-term {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+  }
+  
+  .glossary-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  

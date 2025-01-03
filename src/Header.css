@@ -1,0 +1,59 @@
+/* src/components/Header.css */
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  justify-content: space-evenly;
+  background-color: rgba(2, 2, 2, 0.879);
+  position: fixed;
+  width: 90%;
+  top: 0;
+  z-index: 10;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+}
+
+.profile-img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.profile-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.profile-name span{
+  color: rgb(240, 150, 111);
+  font-size: 1.7rem;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.nav-links a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #fffcfc;
+}
+ .nav-links a:hover{
+  color: yellow;
+}
+
+.join-button {
+  background-color: #3a3a3a;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  width: 100px;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.join-button:hover{
+  background-color: red;
+}
